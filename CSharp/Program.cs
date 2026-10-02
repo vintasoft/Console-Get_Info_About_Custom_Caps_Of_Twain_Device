@@ -17,7 +17,7 @@ namespace GetInfoAboutCustomDeviceCapabilities
 
         static void Main(string[] args)
         {
-            Vintasoft.Twain.TwainGlobalSettings.Register("REG_USER", "REG_EMAIL", "EXPIRATION_DATE", "REG_CODE");
+            Vintasoft.WinTwain.TwainGlobalSettings.Register("REG_USER", "REG_EMAIL", "EXPIRATION_DATE", "REG_CODE");
 
             try
             {
