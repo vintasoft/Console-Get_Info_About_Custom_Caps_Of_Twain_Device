@@ -17,7 +17,8 @@ namespace GetInfoAboutCustomDeviceCapabilities
 
         static void Main(string[] args)
         {
-            Vintasoft.WinTwain.TwainGlobalSettings.Register("REG_USER", "REG_EMAIL", "EXPIRATION_DATE", "REG_CODE");
+            // register the evaluation license for VintaSoft Twain .NET SDK
+            Vintasoft.Twain.TwainGlobalSettings.Register("REG_USER", "REG_EMAIL", "EXPIRATION_DATE", "REG_CODE");
 
             try
             {
